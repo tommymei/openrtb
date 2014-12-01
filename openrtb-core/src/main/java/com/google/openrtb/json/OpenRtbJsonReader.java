@@ -112,7 +112,10 @@ public class OpenRtbJsonReader {
     try {
       return readBidRequest(factory.getJsonFactory().createParser(is)).build();
     } finally {
-      Closeables.closeQuietly(is);
+      //Closeables.closeQuietly(is);
+      if (is !=null){
+	is.close();
+	}
     }
   }
 

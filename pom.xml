@@ -9,7 +9,7 @@
   <groupId>com.google.openrtb</groupId>
   <artifactId>openrtb-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.7.3-SNAPSHOT</version>
+  <version>0.7.2.1</version>
   <name>Google OpenRTB Libraries</name>
   <description>
     OpenRTB model for Java and other languages via protobuf;
@@ -57,7 +57,7 @@
     <injectVersion>1</injectVersion>
     <junitVersion>4.11</junitVersion>
     <metricsVersion>3.0.2</metricsVersion>
-    <protobufVersion>2.6.1</protobufVersion>
+    <protobufVersion>2.4.1</protobufVersion>
     <slf4jVersion>1.7.7</slf4jVersion>
 
     <!-- Plugin versions -->
